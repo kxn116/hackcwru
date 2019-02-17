@@ -1,0 +1,76 @@
+.chat-content {
+  height: 400px;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.input-container {
+  height: 100px;
+}
+.chat-box-bot {
+  background: rgb(230, 230, 230);
+  border-radius: 10px;
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  margin: 6px;
+  max-width: 70%;
+}
+.rec-container {
+  height: 40px;
+}
+.rec-content-2 {
+  border: 1px solid rgb(100, 100, 240);
+  color: black;
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.rec-content-1 {
+  text-align: center;
+  border: 1px solid rgb(100, 100, 240);
+  display: inline-block;
+  padding: 30px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.chat-box-me {
+  background: rgb(39, 111, 228);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin: 6px;
+  max-width: 70%;
+  float: right;
+}
+#progressBar {
+  width: 400px;
+  height: 22px;
+  border: 1px solid rgb(220, 220, 220);
+  background-color: white;
+}
+#progressBar2 {
+  width: 400px;
+  height: 22px;
+  border: 1px solid rgb(220, 220, 220);
+  background-color: white;
+}
+#progressBar2 div {
+  height: 100%;
+  color: #fff;
+  text-align: right;
+  line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+  width: 0;
+  background-color: rgb(255, 50, 90);
+}
+#progressBar div {
+  height: 100%;
+  color: #fff;
+  text-align: right;
+  line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+  width: 0;
+  background-color: #0099ff;
+}

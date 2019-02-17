@@ -1,0 +1,28 @@
+{
+  "name": "hackth",
+  "version": "1.0.0",
+  "description": "Project for HackCWRU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kxn116/hackcwru.git"
+  },
+  "author": "Kiwoung Nam, Erik Craig, Travis Pavletich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kxn116/hackcwru/issues"
+  },
+  "homepage": "https://github.com/kxn116/hackcwru#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consolidate": "^0.15.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "sequelize": "^3.33.0",
+    "helmet": "^3.15.1"
+  }
+}
